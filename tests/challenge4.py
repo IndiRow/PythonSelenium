@@ -13,6 +13,6 @@ time.sleep(3)
 
 gameFirefly = driver.find_element(By.CSS_SELECTOR, "a[href='html/fireflies.html']")
 gameFirefly.click()
-time.sleep(5)
+time.sleep(3)
 
 driver.quit()
